@@ -8,7 +8,7 @@ export class Parking {
     console.log(this.formulaire);
   }
 
-  ajouter() {
+  demarrer() {
     this.formulaire.addEventListener("submit", (e) => {
       e.preventDefault();
       console.log(Vehicules);
